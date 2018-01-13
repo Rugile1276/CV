@@ -1,0 +1,150 @@
+/* ------------ Global -------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1, h2{
+  font-family: 'Caveat', cursive;
+  margin: 0;
+}
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 50px;
+  margin-top: 0;
+    padding-bottom: 40px;
+}
+h3{
+  font-size: 25px;
+  margin-top: 0;
+}
+a:hover{
+  text-decoration: none;
+}
+.content-wrap{
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+.col-wide{
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 140px;
+}
+.col-narrow{
+  width: 30%;
+  float: left;
+}
+.col-medium{
+  width: 33%;
+  float: left;
+  min-height: 175px;
+}
+p{
+  margin: 10px;
+}
+
+/* ------------ Header and footer -------------*/
+header, footer{
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: top;
+}
+
+/* Footer */
+footer{
+  text-align: center;
+  padding-top: 50px 50px;
+  background-color: #cdd0b9;
+}
+.contact-info a{
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Header */
+header{
+  background-image: url("../images/header.jpg");
+}
+.col-main-info{
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+/* ------------ Work Experience -------------*/
+.work{
+  background-image: url("../images/education.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 260px;
+}
+
+
+.profile-img{
+  border-radius: 50%;
+}
+
+.vertical-line {
+  border-left: thick solid #f2a156;
+  padding-left: 40px;
+}
+
+/* ------------ Education -------------*/
+.education{
+      background-color: #f1ebe8;
+}
+
+/* ------------ Language -------------*/
+.language{
+  background: #e6e6e6;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+table{
+  width: 100%;
+}
+
+td{
+  height: 40px;
+}
+
+th{
+  font-size: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e6b028;
+}
+
+/* ------------ Computer knowledge -------------*/
+.computer-knowledge{
+      background-image: url("../images/computer.jpeg");
+      background-size: 100%;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.computer-knowledge hr{
+  width: 60%;
+  text-align:left;
+  margin: 0 auto 20px 0;
+}
